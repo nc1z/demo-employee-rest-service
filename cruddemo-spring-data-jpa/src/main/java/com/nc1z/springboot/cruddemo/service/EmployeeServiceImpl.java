@@ -1,6 +1,5 @@
 package com.nc1z.springboot.cruddemo.service;
 
-import com.nc1z.springboot.cruddemo.dao.EmployeeDAO;
 import com.nc1z.springboot.cruddemo.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
