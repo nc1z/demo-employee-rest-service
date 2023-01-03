@@ -34,9 +34,7 @@ public class EmployeeRestController {
     @PostMapping("/employees")
     public Employee addEmployee(@RequestBody Employee theEmployee) {
 
-        // To force a save of new item with saveOrUpdate (deprecated), set id to 0
-        // TODO: Update new method once saveOrUpdate replaced
-
+        // force a save
         theEmployee.setId(0);
 
         employeeService.save(theEmployee);
